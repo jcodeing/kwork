@@ -1,0 +1,18 @@
+
+#####################kwork#####################
+
+export KWORK=/home/kwork
+
+#java
+export JAVA_HOME=$KWORK/java/jdk/...
+PATH=$PATH:$JAVA_HOME/bin
+
+#android
+export ANDROID_SDK=$KWORK/android/sdk
+PATH=$PATH:$ANDROID_SDK/tools
+PATH=$PATH:$ANDROID_SDK/platform-tools
+PATH=$PATH:$ANDROID_SDK/build-tools/24.0.1
+PATH=$PATH:$ANDROID_SDK/assist-tools
+export ANDROID_NDK=$KWORK/android/ndk/...
+
+#####################kwork#####################
